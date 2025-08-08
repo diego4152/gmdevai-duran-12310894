@@ -13,7 +13,7 @@ public class PetMoveToGoal : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void Update()
+    private void LateUpdate()
     {
         Vector3 lookAtGoal = new Vector3(goal.position.x,
                                         this.transform.position.y,
